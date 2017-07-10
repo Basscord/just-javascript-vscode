@@ -1,0 +1,22 @@
+{
+  "name": "just-javascript",
+  "version": "1.0.0",
+  "description": "Just Javascript",
+  "main": "index.js",
+  "keywords": [
+    "Just",
+    "Javascript"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "watch": "onchange index.js -- npm run lint --silent",
+    "lint": "clear && eslint index.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "onchange": "^3.2.1"
+  },
+  "dependencies": {},
+  "author": "Brian Mau",
+  "license": "ISC"
+}
